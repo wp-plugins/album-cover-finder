@@ -10,7 +10,7 @@ Search for album covers, and use image as featured image, attachment or in post 
 
 == Description ==
 
-1. Search for album covers
+1. Search for album covers via [Last.fm API](www.lastfm.se/api)
 2. Set post attachments, the plugin saves album cover art in media library
 3. Set album cover art as featured image
 4. Insert album cover art into post editor
