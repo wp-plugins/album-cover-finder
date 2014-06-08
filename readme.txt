@@ -4,7 +4,7 @@ Donate link: http://urre.me/donate
 Tags: music, albums, covers
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 0.3
+Stable tag: 0.31
 
 Search for album covers, and use image as featured image, attachment or in post editor.
 
@@ -15,8 +15,9 @@ Search for album covers, and use image as featured image, attachment or in post 
 3. Set album cover art as featured image
 4. Insert album cover art into post editor
 
-* [Check out the project page](http://labs.urre.me/albumcoverfinder)
-* [Github](https://github.com/urre/albumcoverfinder)
+[Check out the project page](http://labs.urre.me/albumcoverfinder)
+
+[Github](https://github.com/urre/albumcoverfinder)
 
 == Installation ==
 
@@ -27,6 +28,7 @@ Search for album covers, and use image as featured image, attachment or in post 
 == Feedback ==
 
 Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do something about it.
+
 
 == Screenshots ==
 
@@ -40,6 +42,9 @@ This plugin is available in the following languages:
 * Swedish
 
 == Changelog ==
+
+= 0.31 =
+* Fixed some string localizations for javascript
 
 = 0.3 =
 * Fixed an error regarding call_user_func_array()
