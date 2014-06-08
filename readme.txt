@@ -43,6 +43,9 @@ This plugin is available in the following languages:
 
 == Changelog ==
 
+= 0.3 =
+* Fixed an error regarding call_user_func_array()
+
 = 0.2 =
 * Added range slider for fetching different image sizes. Small, medium and large
 * First version in repository
