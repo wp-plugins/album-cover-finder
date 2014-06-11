@@ -3,7 +3,7 @@
 Plugin Name: Album cover finder
 Plugin URI: labs.urre.me/albumcoverfinder/
 Description: A simple plugin for finding album cover art via the LastFM API. You can set attachment, featured image and insert cover in post editor
-Version: 0.33
+Version: 0.4
 Author: Urban Sanden
 Author URI: http://urre.me
 Author Email: hej@urre.me
@@ -79,6 +79,7 @@ public function register_admin_scripts() {
         'view'      => __( 'View', 'albumcoverfinder' ),
         'hide'      => __( 'Hide', 'albumcoverfinder' ),
         'set'       => __('Set featured image', 'albumcoverfinder'),
+        'savefirst' => __('Update/publish first', 'albumcoverfinder'),
         'remove'    => __('Remove attachment', 'albumcoverfinder'),
         'files'     => __('files attached', 'albumcoverfinder'),
         'searching' => __('Searching...', 'albumcoverfinder'),
@@ -86,7 +87,8 @@ public function register_admin_scripts() {
         'nofound'   => __('No album cover(s) were found', 'albumcoverfinder'),
         'tryagain'  => __('Try again', 'albumcoverfinder'),
         'savenow'   => __('Save post to change/remove featured image', 'albumcoverfinder'),
-        'ajax_url'  => admin_url( 'admin-ajax.php' )
+        'ajax_url'  => admin_url( 'admin-ajax.php' ),
+        'uploadurl' => admin_url('media-upload.php')
     );
 
     wp_localize_script('albumcoverfinder-admin-script', 'AlbumCoverFinderParams', $js_data);
@@ -148,6 +150,8 @@ public function xhr()  {
 
 
     if(isset($_POST['setattachment']) && !empty($_POST['setattachment'])) :
+
+        echo 'test';
 
         $image_url = $_POST['setattachment'];
         $post_id = $_POST['postid'];
