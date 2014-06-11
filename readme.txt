@@ -4,7 +4,7 @@ Donate link: http://urre.me/donate
 Tags: music, albums, covers
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 0.31
+Stable tag: 0.32
 
 Search for album covers, and use image as featured image, attachment or in post editor.
 
