@@ -44,8 +44,6 @@
 			var attachment_id = $(this).parent().parent().find('img').data('lfm_fileid'),
 			post_id           = $('#pid').text();
 
-			console.log(attachment_id);
-
 			$.post(
 				AlbumCoverFinderParams.ajax_url,	{
 					action: 'and_action',
@@ -118,9 +116,7 @@
 					postid: pid,
 				},	function(data) {
 
-					console.log(data);
-
-						// $('.lfm_attachments').prepend('<div class="lfm_file cf"><img data-lfm_fileid="'+pid+'" src="'+img_url+'"><div class="lfm_text"><a class="setpostthumbnail button" value="'+AlbumCoverFinderParams.set+'">'+AlbumCoverFinderParams.set+'</a><a href="#" class="lfm_detach_attachment">'+AlbumCoverFinderParams.remove+'</a></div></div>');
+						$('.lfm_attachments').prepend('<div class="lfm_file cf"><img data-lfm_fileid="'+pid+'" src="'+img_url+'"><div class="lfm_text"><a class="setpostthumbnail button" value="'+AlbumCoverFinderParams.set+'">'+AlbumCoverFinderParams.set+'</a><a href="#" class="lfm_detach_attachment">'+AlbumCoverFinderParams.remove+'</a></div></div>');
 						$('#wait').hide();
 				});
 
