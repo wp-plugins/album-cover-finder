@@ -3,8 +3,8 @@ Contributors: urre
 Donate link: http://urre.me/donate
 Tags: music, albums, covers
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 0.3
+Tested up to: 3.9.1
+Stable tag: 0.4.1
 
 Search for album covers, and use image as featured image, attachment or in post editor.
 
@@ -15,7 +15,7 @@ Search for album covers, and use image as featured image, attachment or in post 
 3. Set album cover art as featured image
 4. Insert album cover art into post editor
 
-* [Check out the project page](http://labs.urre.me/albumcoverfinder)
+* [Project page](http://labs.urre.me/albumcoverfinder)
 * [Github](https://github.com/urre/albumcoverfinder)
 
 == Installation ==
@@ -28,6 +28,7 @@ Search for album covers, and use image as featured image, attachment or in post 
 
 Contact me at hej@urre.me or at https://twitter.com/urre and hopefully I can do something about it.
 
+
 == Screenshots ==
 
 1. A search for Miles Davis - Kind Of Blue.
@@ -38,8 +39,24 @@ This plugin is available in the following languages:
 
 * English
 * Swedish
++ Serbian
 
 == Changelog ==
+
+= 0.4.1 =
+* Added Serbian translation. Thanks to [Ogi Djuraskovic/First Site Guide](http://firstsiteguide.com/).
+
+= 0.4 =
+* Insert cover in post editor directly in attachment list
+
+= 0.33 =
+* Bug fixes
+
+= 0.32 =
+* Bug fixes
+
+= 0.31 =
+* Fixed some string localizations for javascript
 
 = 0.3 =
 * Fixed an error regarding call_user_func_array()
