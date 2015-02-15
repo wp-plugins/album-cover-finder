@@ -3,7 +3,7 @@ Contributors: urre
 Donate link: http://urre.me/donate
 Tags: music, albums, covers, album covers, artist, sleeves
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 0.4.2
 
 Search for album covers, and use image as featured image, attachment or in post editor.
